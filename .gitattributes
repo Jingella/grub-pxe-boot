@@ -1,1 +1,2 @@
-memdisk   text=a123
+memdisk  binary diff=hd
+*.mod  binary diff=hd

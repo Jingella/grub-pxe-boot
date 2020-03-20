@@ -1,0 +1,40 @@
+
+# Global Property
+title-text: "Navtrix Network Boot Server"
+title-color: "#FFFFFF"
+desktop-image: "background.jpg"
+desktop-color: "#000000"
+terminal-font: "dejavu_sans_24"
+terminal-box: "terminal_box_*.png"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+# Show the boot menu
++ boot_menu {
+  left = 10%
+  top = 15%
+  width = 50%
+  height = 60%
+  item_font = "dejavu_sans_24"
+  item_color = "#d3d3d3"
+  selected_item_color = "#FFB500"
+  item_height = 38
+  item_spacing = 9
+  item_pixmap_style = "clear_*.png"
+  selected_item_pixmap_style = "select_*.png"
+}
+
++ progress_bar {
+  left = 50%-300
+  top = 50%+200
+  width = 600
+  height = 50
+
+  id = "__timeout__"
+  text = "@TIMEOUT_NOTIFICATION_LONG@"
+
+  border_color = "white"
+}

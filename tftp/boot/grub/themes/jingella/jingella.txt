@@ -1,6 +1,6 @@
 
 # Global Property
-title-text: "Navtrix Network Boot Server"
+title-text: "Network Boot Server"
 title-color: "#FFFFFF"
 desktop-image: "background.jpg"
 desktop-color: "#000000"
